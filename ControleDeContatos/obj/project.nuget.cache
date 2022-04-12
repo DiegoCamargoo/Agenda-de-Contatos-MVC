@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lZZjXvccMf9Bc+kHkGVhBWMzoMORQ0HmqMEmvS7BDjv0CC4zE7yJ+vEC4M5412QhqabneV6RpeQQ1xW8e11jbw==",
+  "dgSpecHash": "QRu9F4mNUrTFB2T5J0474wJ3hnV+HGGIX0BEbrYDvuwFs1whzXe+Zz86HF0XlN82i1xr3+1CEh8syrxohbAnng==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\AspNet\\ControleDeContatos\\ControleDeContatos.csproj",
+  "projectFilePath": "C:\\Dev\\AspNet\\MvC\\ControleDeContatos\\ControleDeContatos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TiDie\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\TiDie\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

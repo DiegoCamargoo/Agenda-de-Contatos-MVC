@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\AspNet\\ControleDeContatos\\ControleDeContatos.csproj": {}
+    "C:\\Dev\\AspNet\\MvC\\ControleDeContatos\\ControleDeContatos.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\AspNet\\ControleDeContatos\\ControleDeContatos.csproj": {
+    "C:\\Dev\\AspNet\\MvC\\ControleDeContatos\\ControleDeContatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\AspNet\\ControleDeContatos\\ControleDeContatos.csproj",
+        "projectUniqueName": "C:\\Dev\\AspNet\\MvC\\ControleDeContatos\\ControleDeContatos.csproj",
         "projectName": "ControleDeContatos",
-        "projectPath": "C:\\Dev\\AspNet\\ControleDeContatos\\ControleDeContatos.csproj",
+        "projectPath": "C:\\Dev\\AspNet\\MvC\\ControleDeContatos\\ControleDeContatos.csproj",
         "packagesPath": "C:\\Users\\TiDie\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\AspNet\\ControleDeContatos\\obj\\",
+        "outputPath": "C:\\Dev\\AspNet\\MvC\\ControleDeContatos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
