@@ -121,3 +121,4 @@ C:\Dev\AspNet\MvC\ControleDeContatos\obj\Debug\net6.0\ControleDeContatos.pdb
 C:\Dev\AspNet\MvC\ControleDeContatos\obj\Debug\net6.0\ControleDeContatos.genruntimeconfig.cache
 C:\Dev\AspNet\MvC\ControleDeContatos\obj\Debug\net6.0\ref\ControleDeContatos.dll
 C:\Dev\AspNet\MvC\ControleDeContatos\obj\Debug\net6.0\scopedcss\Views\Shared\_LayoutDeslogado.cshtml.rz.scp.css
+C:\Dev\AspNet\MvC\ControleDeContatos\bin\Debug\net6.0\Newtonsoft.Json.dll

@@ -2,9 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\ControleDeContatos",
+    "\\ControleDeContatos\\Controllers",
+    "\\ControleDeContatos\\Helper",
     "\\ControleDeContatos\\Views",
     "\\ControleDeContatos\\Views\\Usuario"
   ],
-  "SelectedNode": "\\ControleDeContatos\\ControleDeContatos.sln",
+  "SelectedNode": "\\ControleDeContatos\\Helper\\Class.cs",
   "PreviewInSolutionExplorer": false
 }

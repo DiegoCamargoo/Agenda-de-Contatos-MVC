@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QRu9F4mNUrTFB2T5J0474wJ3hnV+HGGIX0BEbrYDvuwFs1whzXe+Zz86HF0XlN82i1xr3+1CEh8syrxohbAnng==",
+  "dgSpecHash": "8WNhkpeBwTdaAWGzvmTc8LhQLvOTWu6Nb4qoZ1zV2b/eFOU0I3kT+yS8qW2qBouGMY3Y4gs7bqnkcKjCy758hQ==",
   "success": true,
   "projectFilePath": "C:\\Dev\\AspNet\\MvC\\ControleDeContatos\\ControleDeContatos.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,7 @@
     "C:\\Users\\TiDie\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\TiDie\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\TiDie\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\TiDie\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\TiDie\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\TiDie\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "C:\\Users\\TiDie\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",

@@ -1,4 +1,5 @@
-﻿using ControleDeContatos.Models;
+﻿using ControleDeContatos.Helper;
+using ControleDeContatos.Models;
 using ControleDeContatos.Repositorio;
 using Microsoft.AspNetCore.Mvc;
 
@@ -7,13 +8,24 @@ namespace ControleDeContatos.Controllers
     public class LoginController : Controller
     {
         private readonly IUsuarioRepositorio _usuarioRepositorio;
-        public LoginController(IUsuarioRepositorio usuarioRepositorio)
+        private readonly ISessao _sessao;
+
+        public LoginController(IUsuarioRepositorio usuarioRepositorio, ISessao sessao)
         {
             _usuarioRepositorio = usuarioRepositorio;
+            _sessao = sessao;
+
         }
         public IActionResult Index()
         {
+            if (_sessao.BuscarSessaoDoUsuario() != null) return RedirectToAction("Index", "Home");
             return View();
+        }
+        public IActionResult Sair()
+        {
+            _sessao.RemoverSessaoDoUsuario();
+
+            return RedirectToAction("Index", "Login");
         }
         [HttpPost]
         public IActionResult Entrar(LoginModel loginModel)
@@ -22,20 +34,23 @@ namespace ControleDeContatos.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                   UsuarioModel usuario = _usuarioRepositorio.BuscarPorLogin(loginModel.Login);
+                    UsuarioModel usuario = _usuarioRepositorio.BuscarPorLogin(loginModel.Login);
 
                     if (usuario != null)
                     {
-                        if(usuario.SenhaValida(loginModel.Senha))
+                        if (usuario.SenhaValida(loginModel.Senha))
+                        {
 
-                        return RedirectToAction("Index", "Home");
+                            _sessao.CriarSesaoDoUsuario(usuario);
+                            return RedirectToAction("Index", "Home");
+                        }
+                        TempData["MensagemErro"] = $"Senha do usúario é inválida, tente novamente.";
                     }
 
                     TempData["MensagemErro"] = $"Usúario e/ou senha inválido(s). Por favor, tente novamente.";
                 }
 
-                  TempData["MensagemErro"] = $"Senha do usúario é inválida, tente novamente.";
-                  return View("Index");
+                return View("Index");
             }
             catch (Exception erro)
             {
