@@ -6,8 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ControleDeContatos.Controllers
 {
-    [PaginaParaUsuarioLogado]
-    
+    [PaginaRestritaSomenteAdmin]
     public class UsuarioController : Controller
     {
         private readonly IUsuarioRepositorio _usuarioRepositorio;

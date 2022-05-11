@@ -5,9 +5,10 @@ using System.Diagnostics;
 
 namespace ControleDeContatos.Controllers
 {
+    [PaginaParaUsuarioLogado]
     public class HomeController : Controller
     {
-      [PaginaParaUsuarioLogado]
+     
        
         public IActionResult Index()
         {
