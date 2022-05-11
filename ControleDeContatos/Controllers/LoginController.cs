@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ControleDeContatos.Controllers
 {
+    
     public class LoginController : Controller
     {
         private readonly IUsuarioRepositorio _usuarioRepositorio;
