@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleDeContatos", "ControleDeContatos.csproj", "{B72CB8CF-E09F-4E20-92AE-97CEB9911CC7}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleDeContatos", "src\ControleDeContatos.csproj", "{18EA7847-9FC5-4072-B67C-E2A545D50A7A}"
 EndProject
 Global
